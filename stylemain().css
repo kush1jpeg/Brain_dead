@@ -1,0 +1,162 @@
+*{margin: 0;
+padding: 0;
+padding: 3px;
+
+}
+.con{
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    ;
+   
+    width: 1257px;
+    height: 572px;
+    margin: 0%;
+    padding: 0%;
+    gap: 10px;
+
+}
+
+.class {
+    border: 2px solid black;
+    border-radius: 13px;
+}
+
+#id1 {
+    grid-row: 1/span 5;
+    grid-column: 1/span 16;
+    
+}
+
+#id2 {
+    grid-row: 6/span 1.5;
+    grid-column: 2/span 7;
+    
+}
+#id3 {
+    grid-row: 7/span 10;
+    grid-column: 2/span 6;
+    
+}
+
+#id4 {
+    grid-row: 7/span 10;
+    grid-column: 8/span 9;
+    
+}
+
+#id5 {
+    grid-row: 7/span 4;
+    grid-column: 6/span 9;
+    
+}
+
+.container2{
+    display: grid;
+    grid-template-columns: repeat(20,1fr);
+    grid-template-rows: repeat(13, 1fr);
+  
+    width: 1257px;
+    height: 572px;
+    margin: 0%;
+    padding: 0%;
+    gap: 10px;
+}
+#a {
+    grid-row: 1/span 39;
+    grid-column:18/span 20;
+    
+}
+
+#d {
+    grid-row: 1/span 27;
+    grid-column: 3/span 8;
+    
+}
+#c {
+    grid-row: 1/span 18;
+    grid-column: 11/span 7;
+    
+}
+
+
+#b {
+    grid-row: 8/span 6;
+    grid-column: 3/span 8;
+    
+}
+
+#e {
+    grid-row: 28/span 28;
+    grid-column: 3/span 8;
+    
+}
+#f {
+    grid-row: 19/span 37;
+    grid-column: 11/span 7;
+    
+}
+#g {
+    grid-row: 56/span 39;
+    grid-column: 3/span 6;
+    
+}
+
+#h {
+    grid-row: 40/span 45;
+    grid-column:18/span 20;
+    
+}
+#b {
+    grid-row: 56/span 39;
+    grid-column: 9/span 9;
+    
+}
+#i {
+    grid-row: 85/span 35;
+    grid-column:18/span 20;
+    
+}
+#j {
+    grid-row: 95/span 25;
+    grid-column: 9/span 9;
+    
+}
+#k {
+    grid-row: 95/span 25;
+    grid-column: 3/span 6;
+    
+}
+#l {
+    grid-row: 120/span 32;
+    grid-column: 3/span 11;
+    }
+    #m {
+    grid-row: 120/span 32;
+    grid-column: 14/span 24;
+    
+}
+#n{
+    grid-row: 152/span 27;
+    grid-column: 3/span 35;
+    
+
+}
+#o{
+    grid-row: 179/span 45;
+    grid-column: 3/span 14;
+    
+
+}
+#p{
+    grid-row: 179/span 25;
+    grid-column: 17/span 21;
+    
+
+}
+#q{
+    grid-row: 204/span 20;
+    grid-column: 17/span 21;
+    
+
+}

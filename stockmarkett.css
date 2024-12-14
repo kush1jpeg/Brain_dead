@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef5ff;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .stock-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .filters {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .filter-btn {
+    background-color: #e5e7eb;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .filter-btn.active,
+  .filter-btn:hover {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .stock-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .stock-item {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 10px;
+    border-bottom: 1px solid #e5e7eb;
+  }
+  
+  .logo {
+    font-size: 30px;
+    width: 40px;
+    color: #555;
+  }
+  
+  .stock-name {
+    flex-grow: 1;
+    font-weight: bold;
+  }
+  
+  .trend {
+    font-size: 18px;
+  }
+  
+  .trend.up {
+    color: green;
+  }
+  
+  .trend.down {
+    color: red;
+  }
+  
+  .price {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .change {
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .change.positive {
+    background-color: #28a745;
+  }
+  
+  .change.negative {
+    background-color: #dc3545;
+  }
+  
